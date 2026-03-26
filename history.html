@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>History</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body onload="initApp(); loadHistory(); loadChart();">
+
+<h1>History</h1>
+
+<nav>
+    <a href="index.html"><button>Home</button></a>
+    <a href="advanced.html"><button>Calculator</button></a>
+</nav>
+
+<ul id="historyList"></ul>
+
+<h2>Chart</h2>
+<div id="chart"></div>
+
+<br>
+<button onclick="clearHistory()">Clear History</button>
+
+<script src="script.js"></script>
+</body>
+</html>

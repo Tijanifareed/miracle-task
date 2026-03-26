@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Advanced Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body onload="initApp()">
+
+<h1>Advanced Calculator</h1>
+
+<nav>
+    <a href="index.html"><button>Home</button></a>
+    <a href="history.html"><button>History</button></a>
+</nav>
+
+<form>
+    <input type="number" id="hours" placeholder="Hours"><br><br>
+    <input type="number" id="rate" placeholder="Rate"><br><br>
+    <input type="number" id="overtime" placeholder="Overtime"><br><br>
+    <input type="number" id="bonus" placeholder="Bonus"><br><br>
+    <input type="number" id="tax" placeholder="Tax %"><br><br>
+
+    <button type="button" onclick="advancedCalc()">Calculate</button>
+    <button type="button" onclick="downloadPayslip()">Download Payslip</button>
+</form>
+
+<h2 id="result"></h2>
+
+<script src="script.js"></script>
+</body>
+</html>
